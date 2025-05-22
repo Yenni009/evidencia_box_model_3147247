@@ -1,0 +1,69 @@
+/*Selector de clase
+se determina con (.)
+Todas las etiquetas con esa clase tendran el mismo estilo*/
+
+
+/*Modelo de caja
+Contenido:texto,imagenes,videos,svg
+en una caja tiene que haber contenido o debe tener ancho y slto
+*/
+.box1{
+ display: block;
+ background-color: LightSalmon;
+ height: 200px;
+ padding-top: 80px;
+ padding-left: 40px;
+ padding-right: 30px;
+ padding-bottom: 10px;
+ border-style:dashed;
+ border-color: Tomato;
+ border-width: 2px;
+}
+
+.box2{
+display: block;
+background-color: Coral;
+/*Propiedades width(ancho) y height(largo) aplica solo a la capa de contenido,
+Padding*/
+width:400px;
+height: 100px; 
+padding: 30px 40px 10px 20px;
+border-top: palevioletred 10px outset;
+border-bottom: palevioletred 10px ridge;
+border-left: 10px paleturquoise double;
+border-right: 10px burlywood ridge ;
+box-sizing: border-box;
+}
+
+/*Estilo de identificador
+denota con numeral(#)
+solo aplica a un elemento en todo el documento*/
+#caja3{
+display: block;
+padding: 40px 20px;
+background-color: rgb(238, 163, 238);
+height: 250px;
+border-top: palevioletred 20px outset;
+border-bottom: palevioletred 10px ridge;
+border-left: 10px paleturquoise double;
+border-right: 10px burlywood ridge ;
+}
+
+#caja4{
+    display: block;
+    background-color: aquamarine;
+    height: 100px;
+    padding: 5px;
+    border-top-color: azure;
+    border-top-style: double;
+    border-top-width: 10px;
+    border-bottom-color: beige;
+    border-bottom-style: dotted;
+    border-bottom-width: 12px;
+    border-left-color: rgb(177, 177, 127);
+    border-left-style: dotted;
+    border-left-width: 10px;
+    border-right-color: rgb(117, 117, 79);
+    border-right-style: dotted;
+    border-right-width: 12px;
+}
