@@ -18,6 +18,7 @@ en una caja tiene que haber contenido o debe tener ancho y slto
  border-style:dashed;
  border-color: Tomato;
  border-width: 2px;
+ margin: 80px;
 }
 
 .box2{
@@ -33,6 +34,9 @@ border-bottom: palevioletred 10px ridge;
 border-left: 10px paleturquoise double;
 border-right: 10px burlywood ridge ;
 box-sizing: border-box;
+margin-top:50px;
+margin-left: 50px;
+margin-bottom: 40px;
 }
 
 /*Estilo de identificador
@@ -47,6 +51,7 @@ border-top: palevioletred 20px outset;
 border-bottom: palevioletred 10px ridge;
 border-left: 10px paleturquoise double;
 border-right: 10px burlywood ridge ;
+margin:80px;
 }
 
 #caja4{
@@ -66,4 +71,5 @@ border-right: 10px burlywood ridge ;
     border-right-color: rgb(117, 117, 79);
     border-right-style: dotted;
     border-right-width: 12px;
+    margin:80px;
 }
